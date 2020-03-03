@@ -4,8 +4,8 @@ import Item from "../item/itemComponent";
 
 const List = props => (
   <ul>
-    {props.videos.map(video => (
-      <Item key={video.id} video={video} />
+    {props.games.map(game => (
+      <Item key={Math.random()} game={game} />
     ))}
   </ul>
 );

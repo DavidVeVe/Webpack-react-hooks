@@ -1,11 +1,10 @@
 import React from "react";
 
-const Item = ({ video }) => (
+const Item = ({ game }) => (
   <li>
-    <p>nombre de la pelicula: {video.name}</p>
-    <p>año: {video.year}</p>
-    <p>GENERO : {video.genre}</p>
-    <p>actor principal : {video.actor}</p>
+    <p>Name: {game.name}</p>
+    <p>Type: {game.type}</p>
+    <p>Country: {game.country}</p>
   </li>
 );
 
